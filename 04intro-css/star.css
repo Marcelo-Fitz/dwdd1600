@@ -1,0 +1,123 @@
+body {
+    font-family: "Science Gothic", serif;
+    margin: 0;
+}
+
+/*header*/
+header {
+    background-color: #c4e7e5;
+    padding: 1rem 10px;
+}
+
+header span {
+    color: #19244e;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+/*navigation*/
+nav {
+    background-color: #f36b2e;
+}
+nav ul{
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+
+}
+nav a {
+    display: block;
+    padding: .83rem 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #19244e;
+    font-weight: 700;
+}
+
+nav li.active a {
+    background-color: #f59a1e;
+    color: #253c96;
+}
+
+nav li a:hover {
+    color: white;
+}
+
+/*main*/
+main {
+    padding: 1rem 10px;
+
+}
+
+main h1 {
+    color: #253c96;
+
+}
+main h2 {
+    color: #f59a1e;
+    margin-bottom: .2rem;
+}
+main p {
+    margin: 0;
+    color: #333333;
+}
+main ol {
+    padding: .5rem 30px;
+    background-color: #f59a1e;
+
+}
+main dl dt {
+    color: #f36b2e;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+main dl dd {
+   color : #253c96;
+   font-size: .9rem;
+   margin-left: 20px;
+}
+main ul {
+    list-style-type: circle;
+    padding: .5rem 30px;
+    background-color: #c4e7e5;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+main strong {
+    font-weight: 700;
+    color: black;
+}
+main em {
+    font-weight: 300;
+}
+main address {
+    font-style: normal;
+    background-color: #f36b2e;
+    padding: .5rem;
+    border-radius: 10px;
+    border: 2px solid #f59a1e;
+    width: 350px;
+}
+main a {
+    color: #253c96;
+}
+main a:hover {
+    color: #f36b2e;
+}
+
+/*footer*/
+footer {
+    background-color: #f59a1e;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: .8rem;
+    color: #333;
+    letter-spacing: 3px;
+}
+footer p {
+    margin: 0;
+}
