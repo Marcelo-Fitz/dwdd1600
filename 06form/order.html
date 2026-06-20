@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Marcelo Fitzgerald">
+    <meta name="description" content="Silver Star Tshirts & Co. Website.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="star.css">
+    <title>Silver Star Tshirts & Co.</title>
+</head>
+  <!-- v2 -->
+<body>
+ <!-- start the page head -->
+    <header>
+        <span>Silver Star Tshirts & Co.</span>
+    </header>
+
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="releases.html">New Releases</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li class="active"><a href="order.html">Order</a></li>
+        </ul>
+
+
+    </nav>
+
+    <!-- start the main content -->
+    <main>
+
+
+    <h1>Order</h1>
+
+    <form method="get" class="myForm" action="thanks.html">
+        <fieldset>
+        <legend>Personal Information</legend>
+        <label>Full Name*<input type="text" name="fname" required></label>
+        <label>Email*<input type="email" name="email" required></label>
+        <label>Cell Number*<input type="tel" name="phone" required placeholder="123-456-7890"></label>
+        </fieldset>
+
+        <fieldset>
+        <legend>T-Shirt Selection</legend>
+       <label><input type="radio" name="method" value="earth">Earth T-Shirt ($5)</label>
+       <label><input type="radio" name="method" value="mango">Mango T-Shirt ($5)</label>
+       <label><input type="radio" name="method" value="tropical">Tropical T-Shirt ($6)</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Extras</legend>
+            <label><input type="checkbox" name="two" value="chosen">X2 T-Shirts</label>
+            <label><input type="checkbox" name="sticker" value="chosen">Mystery Sticker Set ($3)</label>
+            <label><input type="checkbox" name="bag" value="chosen">Mystery Tote ($5)</label>
+            <label><input type="checkbox" name="hat" value="chosen">Mystery Hat ($4)</label>
+
+            <label>T-Shirt Size
+            <select name="size">
+                <option value="none">Please Select</option>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+                <option value="xlarge">Extra Large</option>
+            </select>
+            </label>
+        </fieldset>   
+
+        <label>Comments 
+            <textarea name="comments" placeholder="Please add any special instructions here."></textarea>
+        </label>
+
+        <input type="submit" value="Send Delivery Request">
+        </form>
+       
+    </main>
+    <!-- start the page footer -->
+    <footer>
+        <p>&copy; 2026 &bull; Marcelo Fitzgerald &bull; Web Essentials</p>
+    </footer>
+
+</body>
+
+</html>
