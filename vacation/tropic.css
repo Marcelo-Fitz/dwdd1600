@@ -46,9 +46,12 @@ header span {
         padding: .8rem;
         color: #00A896;
         text-decoration: none;
-        border-bottom: solid 1px #eee;
+        background-color: #dadada;
         font-weight: 700;
         text-transform: uppercase;
+        border-radius: 15px;
+        margin: .5rem;
+        
 
     }
     nav .active a {
@@ -171,6 +174,7 @@ div.gallery{
 }
 div.gallery figure {
     margin: 0;
+    width: 400px;
 }
 div.gallery figcaption {
     text-align: center;
@@ -181,6 +185,7 @@ div.gallery figcaption {
 }
 .gallery img{
      border-radius: 5px;
+     border: 2px solid #007791;
 }
 
 .gallery img:hover {
