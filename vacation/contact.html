@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+    <meta name="author" content="Marcelo Fitzgerald">
+    <meta name="description" content="Tropics Vacations Website.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="tropic.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Tropics Vacations</title>
+</head>
+<!-- v2 -->
+
+<body>
+    <!-- start the page head -->
+    <header>
+        <span>Tropics Vacations</span>
+    </header>
+
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li ><a href="index.html">Home</a></li>
+            <li><a href="packages.html">Packages</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="media.html">Media</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
+        </ul>
+
+
+    </nav>
+
+    <!-- start the main content -->
+    <main>
+
+        <h1>Contact Us</h1>
+
+    <form method="get" class="myForm" action="thanks.html">
+        <fieldset>
+        <legend>Personal Information</legend>
+        <label>Full Name*<input type="text" name="fname" required></label>
+        <label>Email*<input type="email" name="email" required></label>
+        <label>Cell Number*<input type="tel" name="phone" required placeholder="123-456-7890"></label>
+        </fieldset>
+
+        <fieldset>
+        <legend>Type of Vacation</legend>
+       <label><input type="radio" name="method" value="single">Single Destination</label>
+       <label><input type="radio" name="method" value="package">Package Deal</label>
+       <label><input type="radio" name="method" value="multi">Multiple Destinations</label>
+        </fieldset>
+
+        <fieldset>
+            <label>Membership
+            <select name="membership">
+                <option value="none">Please Select</option>
+                <option value="standard">Standard</option>
+                <option value="premium">Premium</option>
+                <option value="Gold">Gold</option>
+            </select>
+            </label>
+        </fieldset>   
+
+        <label>Comments 
+            <textarea name="comments" placeholder="Please add any special instructions here."></textarea>
+        </label>
+
+        <input type="submit" value="Send Information Request">
+        </form>
+    </main>
+    <!-- start the page footer -->
+    <footer>
+        <p>&copy; 2026 &bull; Marcelo Fitzgerald &bull; Web Essentials</p>
+    </footer>
+
+</body>
+
+</html>
